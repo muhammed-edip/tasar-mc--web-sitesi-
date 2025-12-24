@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+     font-family: "Montserrat", sans-serif;
+}
+
+html,body {
+  height: 100%;
+background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%) !important; 
+}
+
+.form-signin {
+   
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="type"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#gettouchBt {
+    background-color: #E60000 !important; /* Logondaki kırmızı tonu */
+    border: none !important;             /* Kenarlığı kaldırır */
+    color: white !important;              /* Yazı rengi */
+    transition: background-color 0.3s ease; /* Renk değişimi yumuşak olsun */
+}
+
+/* Mouse ile üzerine gelince (Hover) rengin biraz koyulaşması için */
+#gettouchBt:hover {
+    background-color: #b30000 !important; /* Daha koyu kırmızı */
+}
+img{
+    background-color: rgb(255, 255, 255);
+}
+h1,#since{
+    color: white !important;
+}
